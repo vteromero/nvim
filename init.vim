@@ -24,10 +24,10 @@ set nofoldenable
 let mapleader=" "
 
 " fuzzy file finder (all files)
-"nnoremap <leader>o :Files<Cr>
+nnoremap <leader>o :Files<Cr>
 
 " fuzzy file finder (only git files)
-"nnoremap <leader>p :GFiles --cached  --others --exclude-standard<Cr>
+nnoremap <leader>p :GFiles --cached  --others --exclude-standard<Cr>
 
 " text search (fuzzy searching)
 "nnoremap <leader>f :Rg<Cr>
