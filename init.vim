@@ -30,7 +30,7 @@ nnoremap <leader>o :Files<Cr>
 nnoremap <leader>p :GFiles --cached  --others --exclude-standard<Cr>
 
 " text search (fuzzy searching)
-"nnoremap <leader>f :Rg<Cr>
+nnoremap <leader>f :Rg<Cr>
 
 " split windows (vertical splits)
 nnoremap <leader>w <C-w>v<C-w>l " open new vertical window and move to it
