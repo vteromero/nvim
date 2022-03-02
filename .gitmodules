@@ -7,3 +7,6 @@
 [submodule "pack/dist/start/vim-javascript"]
 	path = pack/dist/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript
+[submodule "pack/dist/start/vim-jsx-pretty"]
+	path = pack/dist/start/vim-jsx-pretty
+	url = https://github.com/MaxMEllon/vim-jsx-pretty
