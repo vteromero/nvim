@@ -4,3 +4,6 @@
 [submodule "pack/dist/start/fzf.vim"]
 	path = pack/dist/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/dist/start/vim-javascript"]
+	path = pack/dist/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
