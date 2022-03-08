@@ -13,8 +13,7 @@ set expandtab
 set autoindent
 
 " colors setup
-colorscheme seoul256
-set background=light
+colorscheme seoul256-light
 
 " folding options
 set foldmethod=syntax
