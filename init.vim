@@ -38,3 +38,8 @@ nnoremap <leader>h <C-w>h " move left
 nnoremap <leader>j <C-w>j " move down
 nnoremap <leader>k <C-w>k " move up
 nnoremap <leader>l <C-w>l " move right
+
+" lightline setup
+let g:lightline = {
+      \ 'colorscheme': 'seoul256',
+      \ }
