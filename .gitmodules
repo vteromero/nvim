@@ -13,3 +13,6 @@
 [submodule "pack/dist/start/lightline.vim"]
 	path = pack/dist/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/dist/start/ale"]
+	path = pack/dist/start/ale
+	url = https://github.com/dense-analysis/ale
