@@ -39,6 +39,14 @@ nnoremap <leader>j <C-w>j " move down
 nnoremap <leader>k <C-w>k " move up
 nnoremap <leader>l <C-w>l " move right
 
+" toggle Explorer
+nnoremap <leader>e :Lexplore<Cr>
+
+" netrw (Explorer) setup
+let g:netrw_banner = 0      " remove top banner
+let g:netrw_liststyle = 3   " tree style listing
+let g:netrw_winsize = 25    " set Explorer window width
+
 " lightline setup
 let g:lightline = {
       \ 'colorscheme': 'seoul256',
