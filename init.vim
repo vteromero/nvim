@@ -22,6 +22,9 @@ set nofoldenable
 " set <leader> to Space key
 let mapleader=" "
 
+" set <localleader> to comma
+let maplocalleader=","
+
 " fuzzy file finder (all files)
 nnoremap <leader>o :Files<Cr>
 
@@ -51,3 +54,8 @@ let g:netrw_winsize = 25    " set Explorer window width
 let g:lightline = {
       \ 'colorscheme': 'seoul256',
       \ }
+
+" vim-plug plugins
+call plug#begin()
+Plug 'Olical/conjure'
+call plug#end()
