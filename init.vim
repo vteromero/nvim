@@ -12,9 +12,6 @@ set expandtab
 
 set autoindent
 
-" colors setup
-colorscheme seoul256-light
-
 " folding options
 set foldmethod=syntax
 set nofoldenable
@@ -50,12 +47,12 @@ let g:netrw_banner = 0      " remove top banner
 let g:netrw_liststyle = 3   " tree style listing
 let g:netrw_winsize = 25    " set Explorer window width
 
-" lightline setup
-let g:lightline = {
-      \ 'colorscheme': 'seoul256',
-      \ }
-
 " vim-plug plugins
 call plug#begin()
 Plug 'Olical/conjure'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 call plug#end()
+
+colorscheme catppuccin-latte
+
+let g:lightline = {'colorscheme': 'catppuccin'}
